@@ -1,0 +1,102 @@
+.App {
+
+  .LoginPage {
+    // width: 50vw;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    height: 50vh;
+    // background-color: aquamarine;
+    margin: auto;
+    margin-top: 25vh;
+    box-sizing: border-box;
+    text-align: center;
+
+    .title {
+      font-size: 80px;
+      margin: 0px;
+    }
+
+    .input-item {
+      width: 100%;
+      padding: 10px 30px 10px 30px;
+      box-sizing: border-box;
+      text-align: left;
+
+      p {
+        font-size: 30px;
+        margin: 0px;
+      }
+
+      .input-box {
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 8px;
+        box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
+
+        input {
+          font-size: 30px;
+          width: 100%;
+          box-sizing: border-box;
+          border: none;
+          border-radius: 5px;
+          outline-width: 0;
+          background-color: rgba(0, 0, 0, 0);
+        }
+      }
+    }
+
+    .button {
+      background: linear-gradient(180deg, rgba(94, 151, 236, 0.83) 50.52%, rgba(94, 151, 236, 0.9) 52.6%, rgba(94, 151, 236, 0.9) 58.85%);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      font-size: 25px;
+      font-weight: 500;
+      color: white;
+      padding: 10px 0px 10px 0px;
+      width: 90%;
+      margin: auto;
+      margin-top: 20px;
+      cursor: pointer;
+      &:hover{
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.339);
+      }
+    }
+    .forgot-password{
+      font-size: 25px;
+      cursor: pointer;
+      &:hover{
+        color: rgb(0, 128, 255);
+      }
+    }
+  }
+  .MainPage {
+    .header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding:20px 30px 20px 30px;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      .center{
+        font-size: 40px;
+        margin: auto;
+        font-weight: 500;
+      }
+      .right{
+        display: flex;
+        align-items: center;
+        right: 0px;
+        p{
+          font-size: 30px;
+          font-weight: 500;
+          margin: 0px;
+        }
+        svg{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
