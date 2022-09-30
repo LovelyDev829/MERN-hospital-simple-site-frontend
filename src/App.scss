@@ -4,15 +4,15 @@
     // width: 50vw;
     width: fit-content;
     padding: 0px 15px 0px 15px;
-    height: 50vh;
+    // height: 50vh;
     // background-color: aquamarine;
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 20vh;
     box-sizing: border-box;
     text-align: center;
 
     .title {
-      font-size: 80px;
+      font-size: 60px;
       margin: 0px;
     }
 
@@ -23,7 +23,7 @@
       text-align: left;
 
       p {
-        font-size: 30px;
+        font-size: 20px;
         margin: 0px;
       }
 
@@ -36,7 +36,7 @@
         box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
 
         input {
-          font-size: 30px;
+          font-size: 25px;
           width: 100%;
           box-sizing: border-box;
           border: none;
@@ -50,8 +50,8 @@
     .button {
       background: linear-gradient(180deg, rgba(94, 151, 236, 0.83) 50.52%, rgba(94, 151, 236, 0.9) 52.6%, rgba(94, 151, 236, 0.9) 58.85%);
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-      border-radius: 20px;
-      font-size: 25px;
+      border-radius: 15px;
+      font-size: 20px;
       font-weight: 500;
       color: white;
       padding: 10px 0px 10px 0px;
@@ -59,42 +59,90 @@
       margin: auto;
       margin-top: 20px;
       cursor: pointer;
-      &:hover{
+
+      &:hover {
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.339);
+        background: linear-gradient(180deg, rgba(61, 135, 245, 0.891) 50.52%, rgba(68, 138, 242, 0.948) 52.6%, rgba(63, 135, 242, 0.96)58.85%);
       }
     }
-    .forgot-password{
-      font-size: 25px;
+
+    .forgot-password {
+      font-size: 20px;
       cursor: pointer;
-      &:hover{
-        color: rgb(0, 128, 255);
+
+      &:hover {
+        color: rgb(39, 147, 254);
       }
     }
   }
-  .MainPage {
-    .header {
+
+  .header {
+    display: flex;
+    align-items: center;
+    // width: 100%;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+
+    .center {
+      font-size: 30px;
+      margin: auto;
+      font-weight: 500;
+    }
+
+    .right {
+      position: absolute;
+      right: 30px;
       display: flex;
       align-items: center;
-      width: 100%;
-      padding:20px 30px 20px 30px;
-      box-sizing: border-box;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      .center{
-        font-size: 40px;
-        margin: auto;
+
+      p {
+        font-size: 25px;
         font-weight: 500;
+        margin: 0px;
       }
-      .right{
-        display: flex;
-        align-items: center;
-        right: 0px;
-        p{
-          font-size: 30px;
-          font-weight: 500;
-          margin: 0px;
-        }
-        svg{
-          margin-left: 10px;
+
+      svg {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .MenuPage {
+    .main {
+      width: 50vw;
+      // width: fit-content;
+      padding: 0px 15px 0px 15px;
+      height: 50vh;
+      // background-color: aquamarine;
+      margin: auto;
+      margin-top: 20vh;
+      box-sizing: border-box;
+      text-align: center;
+
+      .title {
+        font-size: 60px;
+        margin: 0px;
+        padding-bottom: 40px;
+      }
+
+      .button {
+        background: linear-gradient(180deg, rgba(94, 151, 236, 0.83) 50.52%, rgba(94, 151, 236, 0.9) 52.6%, rgba(94, 151, 236, 0.9) 58.85%);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        padding: 10px 0px 10px 0px;
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        cursor: pointer;
+
+        &:hover {
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.339);
+          background: linear-gradient(180deg, rgba(61, 135, 245, 0.891) 50.52%, rgba(68, 138, 242, 0.948) 52.6%, rgba(63, 135, 242, 0.96)58.85%);
         }
       }
     }

@@ -2,8 +2,8 @@ let initState = {
     loginFlag : false,
     users: [
         {
-            email: 'lovely@gmail.com',
-            password: 'lovely'
+            email: 'user@gmail.com',
+            password: 'password'
         }
     ]
 }

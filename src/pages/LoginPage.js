@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
-import { useDispatch } from 'react-redux';
+import React, { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import { loginCheck } from '../redux/actions/index';
+import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
-    // const loginFlag = useSelector(state => state.loginFlag);
+    const loginFlag = useSelector(state => state.loginFlag);
+    const navigate = useNavigate();
     const dispatch = useDispatch()
     const loginChecK = () => {
         dispatch(loginCheck(email, password));
@@ -12,6 +14,9 @@ function LoginPage() {
     }
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    useEffect(()=>{
+        if(loginFlag) navigate('/menu');
+    })
     return (
         <div className='LoginPage'>
             <p className='title'>Hospital Name</p>
