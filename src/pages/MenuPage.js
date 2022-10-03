@@ -1,20 +1,16 @@
 import React from 'react'
-import { ReactComponent as UserIcon } from "../assets/user.svg";
+import { useNavigate } from 'react-router-dom';
+import Header from '../components/Header'
 
 function MenuPage() {
+  const navigate = useNavigate();
   return (
     <div className='MenuPage'>
-      <div className='header'>
-        <p className='center'>Hospital Name</p>
-        <div className='right'>
-          <p>David</p>
-          <UserIcon />
-        </div>
-      </div>
+      <Header />
       <div className='main'>
         <p className='title'>Good Afternoon!</p>
-        <div className='button'>ALL CLINICAL STUDIES</div>
-        <div className='button'>ALL TRIAL ORGANIZATIONS</div>
+        <div className='button' onClick={() => { navigate('/clinical-studies') }}>ALL CLINICAL STUDIES</div>
+        <div className='button' onClick={() => { navigate('/trial-organisations') }}>ALL TRIAL ORGANIZATIONS</div>
       </div>
     </div>
   )

@@ -1,8 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { useSelector } from 'react-redux';
 import LoginPage from './pages/LoginPage'
 import MenuPage from './pages/MenuPage'
-import { useSelector } from 'react-redux';
+import SubMenuPage from './pages/SubMenuPage';
+import PatientPage from './pages/PatientPage';
 
 function Routing() {
     const loginFlag = useSelector(state => state.loginFlag);
@@ -14,6 +16,9 @@ function Routing() {
                 <Route exact path="/" element={<LoginPage />} />
                 <Route exact path="/login" element={<LoginPage />} />
                 {loginFlag && <Route exact path="/menu" element={<MenuPage />} />}
+                {loginFlag && <Route exact path="/clinical-studies" element={<SubMenuPage dataToShow='clinical-studies'/> } />}
+                {loginFlag && <Route exact path="/trial-organisations" element={<SubMenuPage dataToShow='trial-organisations'/> } />}
+                {loginFlag && <Route exact path="/patients" element={ <PatientPage/> } />}
             </Routes>
         </Router>
     )
