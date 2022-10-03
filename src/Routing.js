@@ -4,7 +4,8 @@ import { useSelector } from 'react-redux';
 import LoginPage from './pages/LoginPage'
 import MenuPage from './pages/MenuPage'
 import SubMenuPage from './pages/SubMenuPage';
-import PatientPage from './pages/PatientPage';
+import PatientsPage from './pages/PatientsPage';
+import PatientDetailPage from './pages/PatientDetailPage';
 
 function Routing() {
     const loginFlag = useSelector(state => state.loginFlag);
@@ -16,9 +17,10 @@ function Routing() {
                 <Route exact path="/" element={<LoginPage />} />
                 <Route exact path="/login" element={<LoginPage />} />
                 {loginFlag && <Route exact path="/menu" element={<MenuPage />} />}
-                {loginFlag && <Route exact path="/clinical-studies" element={<SubMenuPage dataToShow='clinical-studies'/> } />}
-                {loginFlag && <Route exact path="/trial-organisations" element={<SubMenuPage dataToShow='trial-organisations'/> } />}
-                {loginFlag && <Route exact path="/patients" element={ <PatientPage/> } />}
+                {loginFlag && <Route exact path="/clinical-studies" element={<SubMenuPage dataToShow={0}/> } />}
+                {loginFlag && <Route exact path="/trial-organisations" element={<SubMenuPage dataToShow={1}/> } />}
+                {loginFlag && <Route exact path="/patients" element={ <PatientsPage/> } />}
+                {loginFlag && <Route exact path="/patient-detail" element={ <PatientDetailPage/> } />}
             </Routes>
         </Router>
     )

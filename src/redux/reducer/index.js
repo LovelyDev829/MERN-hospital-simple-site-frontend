@@ -10,11 +10,104 @@ let initState = {
         email: 'user@gmail.com',
         password: 'password'
     },
-    data: {
-        clinicalStudies: [
+    currentItem: {
+        conditionId : 0,
+        studyId: 0,
+        patientId : 0
+    },
+    data: [
+        [
             {
                 title: 'CLINICAL STUDY #1',
                 data: [
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY'
+                    },
                     {
                         patientId: '123-456-789',
                         surName: 'Surname',
@@ -256,7 +349,7 @@ let initState = {
                 ]
             }
         ],
-        trialOrganisations: [
+        [
             {
                 title: 'TRIAL ORGANISATION #1',
                 data: [
@@ -312,7 +405,7 @@ let initState = {
                 ]
             }
         ],
-    }
+    ]
 }
 const reducer = (state = initState, action) => {
     switch (action.type) {
@@ -324,6 +417,33 @@ const reducer = (state = initState, action) => {
             return {
                 ...state,
                 loginFlag: tempFlag
+            }
+        }
+        case 'SET_CONDITION_ID': {
+            return {
+                ...state,
+                currentItem: {
+                    ...state.currentItem,
+                    conditionId : action.payload.id
+                }
+            }
+        }
+        case 'SET_STUDY_ID': {
+            return {
+                ...state,
+                currentItem: {
+                    ...state.currentItem,
+                    studyId : action.payload.id
+                }
+            }
+        }
+        case 'SET_PATIENT_ID': {
+            return {
+                ...state,
+                currentItem: {
+                    ...state.currentItem,
+                    patientId : action.payload.id
+                }
             }
         }
         default: return state
