@@ -6,6 +6,7 @@ import MenuPage from './pages/MenuPage'
 import SubMenuPage from './pages/SubMenuPage';
 import PatientsPage from './pages/PatientsPage';
 import PatientDetailPage from './pages/PatientDetailPage';
+import NewObservation from './pages/NewObservation';
 
 function Routing() {
     const loginFlag = useSelector(state => state.loginFlag);
@@ -21,6 +22,7 @@ function Routing() {
                 {loginFlag && <Route exact path="/trial-organisations" element={<SubMenuPage dataToShow={1}/> } />}
                 {loginFlag && <Route exact path="/patients" element={ <PatientsPage/> } />}
                 {loginFlag && <Route exact path="/patient-detail" element={ <PatientDetailPage/> } />}
+                {loginFlag && <Route exact path="/new-observation" element={ <NewObservation/> } />}
             </Routes>
         </Router>
     )

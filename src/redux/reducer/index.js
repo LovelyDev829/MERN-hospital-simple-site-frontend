@@ -11,6 +11,7 @@ let initState = {
         password: 'password'
     },
     currentItem: {
+        userType : 0,
         conditionId : 0,
         studyId: 0,
         patientId : 0

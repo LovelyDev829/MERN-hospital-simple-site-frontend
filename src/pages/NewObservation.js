@@ -4,12 +4,12 @@ import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header'
 import GoBackButton from '../components/GoBackButton'
 
-function PatientDetailPage() {
+function NewObservation() {
     const currentItem = useSelector(state => state.currentItem);
     const currentPatient = useSelector(state => state.data[currentItem.conditionId][currentItem.studyId]?.data[currentItem.patientId]);
     const navigate = useNavigate();
     return (
-        <div className='PatientDetailPage'>
+        <div className='NewObservation'>
             <Header />
             <div className='main'>
                 <GoBackButton />
@@ -62,32 +62,11 @@ function PatientDetailPage() {
                             </div>
                         </div>
                         <div className='left-bottom'>
-                            <div className='button' onClick={() => { navigate('/new-observation') }}>RECORD NEW OBSERVATION</div>
+                            <div className='button' onClick={() => { navigate('/new-observation') }}>SAVE</div>
                         </div>
                     </div>
                     <div className='right'>
                         <div className='observation-item'>
-                            <div className='observation-item-data'>
-                                <p>DATE OF THE OBSERVATION :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>HEART RATE :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>BLOOD PRESSURE :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>RESPIRATORY RATE :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>LEVEL OF CONSCIOUSNESS :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>PULSE OXIMETRY :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>OBSERVATION NOTES :</p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -96,4 +75,4 @@ function PatientDetailPage() {
     )
 }
 
-export default PatientDetailPage
+export default NewObservation

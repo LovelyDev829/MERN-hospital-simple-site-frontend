@@ -179,7 +179,8 @@
             margin: 0px;
             font-weight: 500;
             font-size: 20px;
-            &:nth-child(2){
+
+            &:nth-child(2) {
               font-size: 30px;
               font-weight: 700;
             }
@@ -264,7 +265,7 @@
             align-items: center;
             cursor: pointer;
 
-            &:hover{
+            &:hover {
               background-color: rgba(207, 207, 207, 0.464);
             }
 
@@ -305,6 +306,7 @@
       }
     }
   }
+
   .PatientDetailPage {
     .main {
       width: 100%;
@@ -319,12 +321,14 @@
           height: 100%;
           padding: 50px 30px 0px 10px;
           box-sizing: border-box;
+
           p {
             width: fit-content;
             margin: auto;
             font-weight: 700;
             font-size: 30px;
-            &:nth-child(2){
+
+            &:nth-child(2) {
               font-size: 30px;
             }
           }
@@ -341,7 +345,8 @@
             margin: auto;
             font-weight: 700;
             font-size: 30px;
-            &:nth-child(2){
+
+            &:nth-child(2) {
               font-size: 30px;
             }
           }
@@ -365,17 +370,20 @@
               padding: 5px 10px 5px 10px;
               display: flex;
 
-              &:nth-child(7){
+              &:nth-child(7) {
                 margin-top: 20px;
               }
-              &:nth-child(9){
+
+              &:nth-child(9) {
                 margin-top: 20px;
               }
+
               p {
                 margin: 0px;
                 font-weight: 500;
                 font-size: 15px;
-                &:nth-child(1){
+
+                &:nth-child(1) {
                   width: 50%;
                   font-weight: 700;
                 }
@@ -412,11 +420,136 @@
             box-sizing: border-box;
             border: 3px solid #8DA9FF;
             margin-bottom: 10px;
-            cursor: pointer;
 
-            &:hover{
-              background-color: rgba(207, 207, 207, 0.464);
+            .observation-item-data {
+              display: flex;
+              padding: 2px 5px 2px 5px;
+
+              p {
+                margin: 0px;
+                font-weight: 600;
+                font-size: 15px;
+              }
             }
+          }
+        }
+      }
+    }
+  }
+
+  .NewObservation {
+    .main {
+      width: 100%;
+      box-sizing: border-box;
+
+      .top {
+        height: 90px;
+        display: flex;
+
+        .top-left {
+          width: 40%;
+          height: 100%;
+          padding: 50px 30px 0px 10px;
+          box-sizing: border-box;
+
+          p {
+            width: fit-content;
+            margin: auto;
+            font-weight: 700;
+            font-size: 30px;
+
+            &:nth-child(2) {
+              font-size: 30px;
+            }
+          }
+        }
+
+        .top-right {
+          width: 60%;
+          height: 100%;
+          padding: 50px 30px 0px 10px;
+          box-sizing: border-box;
+
+          p {
+            width: fit-content;
+            margin: auto;
+            font-weight: 700;
+            font-size: 30px;
+
+            &:nth-child(2) {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+
+      .bottom {
+        display: flex;
+
+        .left {
+          width: 40%;
+          margin: 10px 5px 10px 10px;
+          box-sizing: border-box;
+
+          .left-top {
+            height: calc(100vh - 230px);
+            box-sizing: border-box;
+            border: 3px solid #8DA9FF;
+
+            .patient-detail-item {
+              padding: 5px 10px 5px 10px;
+              display: flex;
+
+              &:nth-child(7) {
+                margin-top: 20px;
+              }
+
+              &:nth-child(9) {
+                margin-top: 20px;
+              }
+
+              p {
+                margin: 0px;
+                font-weight: 500;
+                font-size: 15px;
+
+                &:nth-child(1) {
+                  width: 50%;
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+
+          .left-bottom {
+            margin-top: 10px;
+
+            .button {
+              padding: 10px 0px 10px 0px;
+              width: 100%;
+              margin: auto;
+              // margin-top: 20px;
+            }
+          }
+        }
+
+        .right {
+          height: calc(100vh - 170px);
+          width: 60%;
+          margin: 10px 10px 10px 5px;
+          overflow-y: scroll;
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+
+          &::-webkit-scrollbar {
+            display: none;
+          }
+
+          .observation-item {
+            width: 100%;
+            box-sizing: border-box;
+            border: 3px solid #8DA9FF;
+            margin-bottom: 10px;
 
             .observation-item-data {
               display: flex;
