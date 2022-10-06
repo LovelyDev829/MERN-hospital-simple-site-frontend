@@ -13,7 +13,6 @@ function PatientsPage() {
     const setPatientID = (id) => {
         dispatch(setPatientId(id));
     }
-    console.log(currentItem)
     return (
         <div className='PatientsPage'>
             <Header />

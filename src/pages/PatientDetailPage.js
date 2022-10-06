@@ -66,29 +66,42 @@ function PatientDetailPage() {
                         </div>
                     </div>
                     <div className='right'>
-                        <div className='observation-item'>
-                            <div className='observation-item-data'>
-                                <p>DATE OF THE OBSERVATION :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>HEART RATE :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>BLOOD PRESSURE :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>RESPIRATORY RATE :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>LEVEL OF CONSCIOUSNESS :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>PULSE OXIMETRY :</p>
-                            </div>
-                            <div className='observation-item-data'>
-                                <p>OBSERVATION NOTES :</p>
-                            </div>
-                        </div>
+                        {
+                            currentPatient?.observation?.map((item, index) => {
+                                return (
+                                    <div className='observation-item' key={'observation-item'+index}>
+                                        <div className='observation-item-data'>
+                                            <p>DATE OF THE OBSERVATION :</p>
+                                            <p>{item.dateOfObsevation}</p>
+                                        </div>
+                                        <div className='observation-item-data'>
+                                            <p>HEART RATE :</p>
+                                            <p>{item.heartRate}</p>
+                                        </div>
+                                        <div className='observation-item-data'>
+                                            <p>BLOOD PRESSURE :</p>
+                                            <p>{item.bloodPressure}</p>
+                                        </div>
+                                        <div className='observation-item-data'>
+                                            <p>RESPIRATORY RATE :</p>
+                                            <p>{item.respiratoryRate}</p>
+                                        </div>
+                                        <div className='observation-item-data'>
+                                            <p>LEVEL OF CONSCIOUSNESS :</p>
+                                            <p>{item.levelOfConsciousness}</p>
+                                        </div>
+                                        <div className='observation-item-data'>
+                                            <p>PULSE OXIMETRY :</p>
+                                            <p>{item.pulseOximetry}</p>
+                                        </div>
+                                        <div className='observation-item-data'>
+                                            <p>OBSERVATION NOTES :</p>
+                                            <p>{item.observationNotes}</p>
+                                        </div>
+                                    </div>
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </div>

@@ -20,6 +20,7 @@ function LoginPage() {
     return (
         <div className='LoginPage'>
             <p className='title'>Hospital Name</p>
+            <p className='title'>Message me on Whatsapp (+12762601724)</p>
             <div className='input-item'>
                 <p>Email</p>
                 <div className='input-box'>
