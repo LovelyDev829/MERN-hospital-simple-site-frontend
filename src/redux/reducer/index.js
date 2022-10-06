@@ -1,28 +1,28 @@
 let initState = {
     loginFlag: false,
-    users: [
-        {
-            email: 'admin@gmail.com',
-            password: 'password',
-            firstName: 'admin',
-            lastName: 'admin',
-            userType: 'admin'
-        },
-        {
-            email: 'nurse@gmail.com',
-            password: 'password',
-            firstName: 'Nurse',
-            lastName: 'Nurse',
-            userType: 'Nurse'
-        },
-        {
-            email: 'stuff@gmail.com',
-            password: 'password',
-            firstName: 'stuff',
-            lastName: 'stuff',
-            userType: 'stuff'
-        }
-    ],
+    // users: [
+    //     {
+    //         email: 'admin@gmail.com',
+    //         password: 'password',
+    //         firstName: 'admin',
+    //         lastName: 'admin',
+    //         userType: 'admin'
+    //     },
+    //     {
+    //         email: 'nurse@gmail.com',
+    //         password: 'password',
+    //         firstName: 'Nurse',
+    //         lastName: 'Nurse',
+    //         userType: 'Nurse'
+    //     },
+    //     {
+    //         email: 'stuff@gmail.com',
+    //         password: 'password',
+    //         firstName: 'stuff',
+    //         lastName: 'stuff',
+    //         userType: 'stuff'
+    //     }
+    // ],
     nowUser: {
         email: '',
         password: '',
@@ -5178,28 +5178,14 @@ const reducer = (state = initState, action) => {
         case 'ADD_NEW_USER': {
             return state
         }
-        case 'LOGIN_CHECK': {
-            let tempFlag = false;
-            let tempUser = {}
-            state.users.forEach((item) => {
-                if (item.email === action.payload.email && item.password === action.payload.password){
-                    tempFlag = true;
-                    tempUser = {
-                        email: item.email,
-                        password: item.password,
-                        firstName: item.firstName,
-                        lastName: item.lastName,
-                        userType: item.userType
-                    }
-                }
-            })
+        case 'LOGIN': {
             return {
                 ...state,
-                loginFlag: tempFlag,
-                nowUser: tempUser
+                loginFlag: true,
+                nowUser: action.payload
             }
         }
-        case 'LOGOUT':{
+        case 'LOGOUT': {
             return {
                 ...state,
                 loginFlag: false,

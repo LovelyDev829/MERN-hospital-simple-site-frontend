@@ -139,6 +139,9 @@
   }
 
   .MenuPage {
+    &.not-admin{
+      padding-top: 8vh;
+    }
     .main {
       width: 50vw;
       padding: 0px 15px 0px 15px;
@@ -157,9 +160,9 @@
 
       .button {
         padding: 10px 0px 10px 0px;
-        width: 50%;
-        margin: auto;
-        margin-top: 30px;
+        // width: 50%;
+        max-width: 400px;
+        margin: 30px auto 30px auto;
       }
 
       .input-item {

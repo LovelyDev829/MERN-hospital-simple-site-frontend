@@ -1,9 +1,12 @@
-export const loginCheck = (email, password) => {
+export const login = (userData) => {
     return {
-        type: 'LOGIN_CHECK',
+        type: 'LOGIN',
         payload: {
-            email: email,
-            password: password
+            email: userData.email,
+            password: userData.password,
+            firstName: userData.firstName,
+            lastName: userData.lastName,
+            userType: userData.userType
         }
     }
 }

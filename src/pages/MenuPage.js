@@ -62,7 +62,7 @@ function MenuPage() {
               </div>
             </div>
             <div className='button' onClick={() => {
-              if(firstName!=='' || lastName!=='' || email!=='' || password!==''){
+              if (firstName !== '' || lastName !== '' || email !== '' || password !== '' || userType !== '') {
                 addNewUseR(firstName, lastName, email, password, userType)
                 const userObject = {
                   firstName: firstName,
@@ -72,12 +72,19 @@ function MenuPage() {
                   userType: userType
                 };
                 axios.post('http://localhost:4000/hospital/create-user', userObject)
-                  .then(res => console.log(res.data));
-                setFirstName('')
-                setLastName('')
-                setEmail('')
-                setPassword('')
-                setUserType('')
+                  .then(res => {
+                    // console.log(res.data)
+                    if (res.data?.success) {
+                      setFirstName('')
+                      setLastName('')
+                      setEmail('')
+                      setPassword('')
+                      setUserType('stuff')
+                    }
+                  })
+                  .catch((error) => {
+                    // console.log(error);
+                  });
               }
             }}>CREATE A NEW USER</div>
           </div>
@@ -85,7 +92,7 @@ function MenuPage() {
       )
     case 'nurse':
       return (
-        <div className='MenuPage'>
+        <div className='MenuPage not-admin'>
           <Header />
           <div className='main'>
             <p className='title'>GOOD ATFERNOON</p>
@@ -97,12 +104,20 @@ function MenuPage() {
               setConditionID(1)
               navigate('/trial-organisations')
             }}>ALL TRIAL ORGANIZATIONS</div>
+            <div className='button' onClick={() => {
+              setConditionID(2)
+              navigate('/questions')
+            }}>QUESTIONNAIRE</div>
+            <div className='button' onClick={() => {
+              setConditionID(3)
+              navigate('/all-patients-list')
+            }}>LIST OF ALL PATIENTS</div>
           </div>
         </div>
       )
     case 'stuff':
       return (
-        <div className='MenuPage'>
+        <div className='MenuPage not-admin'>
           <Header />
           <div className='main'>
             <p className='title'>GOOD AFTERNOON</p>
