@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import GoBackButton from '../components/GoBackButton'
 import { addObservation } from '../redux/actions/index';
 
-function NewObservation() {
+function NewObservationPage() {
     const currentItem = useSelector(state => state.currentItem);
     const currentPatient = useSelector(state => state.data[currentItem.conditionId][currentItem.studyId]?.data[currentItem.patientId]);
     const dispatch = useDispatch()
@@ -21,7 +21,7 @@ function NewObservation() {
     const [pulseOximetry, SetPulseOximetry] = useState('')
     const [observationNotes, SetObservationNotes] = useState('')
     return (
-        <div className='NewObservation'>
+        <div className='NewObservationPage'>
             <Header />
             <div className='main'>
                 <GoBackButton />
@@ -140,4 +140,4 @@ function NewObservation() {
     )
 }
 
-export default NewObservation
+export default NewObservationPage

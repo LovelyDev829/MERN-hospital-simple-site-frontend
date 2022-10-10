@@ -1,4 +1,5 @@
 let initState = {
+    baseUrl: '',
     loginFlag: false,
     // users: [
     //     {
@@ -5175,9 +5176,6 @@ let initState = {
 }
 const reducer = (state = initState, action) => {
     switch (action.type) {
-        case 'ADD_NEW_USER': {
-            return state
-        }
         case 'LOGIN': {
             return {
                 ...state,

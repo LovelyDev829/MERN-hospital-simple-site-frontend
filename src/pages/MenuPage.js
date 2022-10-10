@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header'
-import { setConditionId, addNewUser } from '../redux/actions/index';
+import { setConditionId } from '../redux/actions/index';
 import axios from 'axios';
 
 function MenuPage() {
@@ -11,9 +11,6 @@ function MenuPage() {
   const dispatch = useDispatch()
   const setConditionID = (id) => {
     dispatch(setConditionId(id));
-  }
-  const addNewUseR = (firstName, lastName, email, password, userType) => {
-    dispatch(addNewUser(firstName, lastName, email, password, userType));
   }
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
@@ -42,7 +39,7 @@ function MenuPage() {
             <div className='input-item'>
               <p>Email</p>
               <div className='input-box'>
-                <input type={"text"} value={email} onChange={(e) => { setEmail(e.target.value) }} />
+                <input type={"email"} value={email} onChange={(e) => { setEmail(e.target.value) }} />
               </div>
             </div>
             <div className='input-item'>
@@ -62,8 +59,7 @@ function MenuPage() {
               </div>
             </div>
             <div className='button' onClick={() => {
-              if (firstName !== '' || lastName !== '' || email !== '' || password !== '' || userType !== '') {
-                addNewUseR(firstName, lastName, email, password, userType)
+              if (firstName !== '' && lastName !== '' && email !== '' && password !== '' && userType !== '') {
                 const userObject = {
                   firstName: firstName,
                   lastName: lastName,
@@ -71,7 +67,7 @@ function MenuPage() {
                   password: password,
                   userType: userType
                 };
-                axios.post('http://localhost:4000/hospital/create-user', userObject)
+                axios.post('http://localhost:4000/user/create-user', userObject)
                   .then(res => {
                     // console.log(res.data)
                     if (res.data?.success) {
@@ -129,6 +125,14 @@ function MenuPage() {
               setConditionID(1)
               navigate('/trial-organisations')
             }}>ALL TRIAL ORGANIZATIONS</div>
+            <div className='button' onClick={() => {
+              setConditionID(2)
+              navigate('/new-patient')
+            }}>CREATE A PATIENT RECORD</div>
+            <div className='button' onClick={() => {
+              setConditionID(3)
+              navigate('/all-patients-list')
+            }}>LIST OF ALL PATIENTS</div>
           </div>
         </div>
       )

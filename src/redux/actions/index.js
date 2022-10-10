@@ -44,19 +44,6 @@ export const setPatientId = (id) => {
     }
 }
 
-export const addNewUser = (firstName, lastName, email, password, userType) => {
-    return {
-        type: 'ADD_NEW_USER',
-        payload: {
-            firstName: firstName,
-            lastName: lastName,
-            email: email,
-            password: password,
-            userType: userType
-        }
-    }
-}
-
 export const addObservation = (dateOfObsevation, heartRate, bloodPressure, respiratoryRate, levelOfConsciousness, pulseOximetry, observationNotes) => {
     return {
         type: 'ADD_OBSERVATION',

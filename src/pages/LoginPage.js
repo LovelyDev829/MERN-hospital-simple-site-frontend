@@ -9,7 +9,7 @@ function LoginPage() {
     const navigate = useNavigate();
     const dispatch = useDispatch()
     const logiN = () => {
-        axios.post('http://localhost:4000/hospital/check-user', { email: email, password: password })
+        axios.post('http://localhost:4000/user/check-user', { email: email, password: password })
             .then(res => {
                 console.log("check-user", res.data)
                 if (res.data[0]) {
