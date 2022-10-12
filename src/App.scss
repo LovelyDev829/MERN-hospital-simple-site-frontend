@@ -223,7 +223,7 @@
     .main {
       // width: 80vw;
       padding: 0px 100px 0px 100px;
-      height: 50vh;
+      // height: 50vh;
       margin: auto;
       margin-top: 5vh;
       box-sizing: border-box;
@@ -293,7 +293,7 @@
             height: calc(100vh - 230px);
             box-sizing: border-box;
             border: 3px solid #8DA9FF;
-
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
             .input-item {
               padding: 5px 10px 5px 10px;
 
@@ -357,6 +357,7 @@
             display: flex;
             align-items: center;
             cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
 
             &:hover {
               background-color: rgba(207, 207, 207, 0.464);
@@ -681,8 +682,7 @@
   .NewPatientPage {
     .main {
       width: 50vw;
-      padding: 0px 15px 0px 15px;
-      height: 50vh;
+      padding: 0px 15px 30px 15px;
       margin: auto;
       margin-top: 8vh;
       box-sizing: border-box;
@@ -750,6 +750,215 @@
     }
   }
 
+  .OnePatientPage {
+    .main {
+      width: 100%;
+      box-sizing: border-box;
+
+      .patient-details {
+        // height: calc(100vh - 230px);
+        padding-top: 100px;
+        box-sizing: border-box;
+
+        margin: auto;
+
+        .title {
+          font-size: 40px;
+          font-weight: 500;
+          margin: 0px auto 0px auto;
+          padding-bottom: 10px;
+          width: fit-content;
+        }
+
+        .patient-detail-item {
+          width: 40%;
+          margin: auto;
+          padding: 5px 10px 5px 10px;
+          display: flex;
+          align-items: center;
+
+          &:nth-child(7) {
+            margin-top: 20px;
+          }
+
+          &:nth-child(9) {
+            margin-top: 20px;
+          }
+
+          p {
+            margin: 0px;
+            font-weight: 500;
+            font-size: 15px;
+            text-align: right;
+            padding: 0px 5px 0px 5px;
+            box-sizing: border-box;
+            font-size: 20px;
+
+            &:nth-child(1) {
+              width: 50%;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+
+      .buttons {
+        padding-top: 30px;
+        width: 30%;
+        margin: auto;
+
+        .button {
+          padding: 10px 0px 10px 0px;
+          width: 100%;
+          margin: auto;
+          // margin-top: 20px;
+        }
+      }
+    }
+  }
+
+  .OnePatientEditPage {
+    .main {
+      width: 50vw;
+      padding: 0px 15px 30px 15px;
+      margin: auto;
+      margin-top: 8vh;
+      box-sizing: border-box;
+      text-align: center;
+
+      .title {
+        font-size: 40px;
+        font-weight: 500;
+        margin: 0px;
+        padding-bottom: 10px;
+      }
+
+      .button {
+        padding: 10px 0px 10px 0px;
+        // width: 50%;
+        max-width: 400px;
+        margin: 20px auto 30px auto;
+      }
+
+      .input-item {
+        margin: auto;
+        max-width: 500px;
+        padding: 5px 30px 5px 30px;
+        box-sizing: border-box;
+        text-align: left;
+
+        p {
+          font-size: 25px;
+          margin: 0px;
+          padding-left: 10px;
+          padding-bottom: 5px;
+          font-weight: 500;
+        }
+
+        .input-box {
+          width: 100%;
+          padding: 5px;
+          box-sizing: border-box;
+          // border: 1px solid black;
+          background-color: #F9F9F9;
+          border-radius: 8px;
+          box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
+
+          input {
+            font-size: 25px;
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            outline-width: 0;
+            background-color: rgba(0, 0, 0, 0);
+          }
+
+          select {
+            font-size: 25px;
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            outline-width: 0;
+            background-color: rgba(0, 0, 0, 0);
+          }
+        }
+      }
+    }
+  }
+
+  .NewStudyPage {
+    .main {
+      width: 50vw;
+      padding: 0px 15px 30px 15px;
+      margin: auto;
+      margin-top: 8vh;
+      box-sizing: border-box;
+      text-align: center;
+
+      .title {
+        font-size: 40px;
+        font-weight: 500;
+        margin: 0px;
+        padding-bottom: 10px;
+      }
+
+      .button {
+        padding: 10px 0px 10px 0px;
+        // width: 50%;
+        max-width: 400px;
+        margin: 50px auto 30px auto;
+      }
+
+      .input-item {
+        margin: auto;
+        max-width: 500px;
+        padding: 55px 30px 5px 30px;
+        box-sizing: border-box;
+        text-align: left;
+
+        p {
+          font-size: 25px;
+          margin: 0px;
+          padding-left: 10px;
+          padding-bottom: 5px;
+          font-weight: 500;
+        }
+
+        .input-box {
+          width: 100%;
+          padding: 5px;
+          box-sizing: border-box;
+          // border: 1px solid black;
+          background-color: #F9F9F9;
+          border-radius: 8px;
+          box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
+
+          input {
+            font-size: 25px;
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            outline-width: 0;
+            background-color: rgba(0, 0, 0, 0);
+          }
+
+          select {
+            font-size: 25px;
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            outline-width: 0;
+            background-color: rgba(0, 0, 0, 0);
+          }
+        }
+      }
+    }
+  }
+
   .button {
     background: linear-gradient(180deg, rgba(94, 151, 236, 0.83) 50.52%, rgba(94, 151, 236, 0.9) 52.6%, rgba(94, 151, 236, 0.9) 58.85%);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -763,6 +972,17 @@
     &:hover {
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.339);
       background: linear-gradient(180deg, rgba(61, 135, 245, 0.891) 50.52%, rgba(68, 138, 242, 0.948) 52.6%, rgba(63, 135, 242, 0.96)58.85%);
+    }
+  }
+
+  .button.opacity {
+    background: linear-gradient(180deg, rgba(94, 151, 236, 0.334) 50.52%,rgba(94, 151, 236, 0.505) 52.6%, rgba(94, 151, 236, 0.573) 58.85%);
+    border: 2px solid rgba(61, 135, 245, 0.891);
+    color: rgb(61, 135, 245);
+    &:hover {
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.339);
+      background: linear-gradient(180deg, rgba(61, 135, 245, 0.891) 50.52%, rgba(68, 138, 242, 0.948) 52.6%, rgba(63, 135, 242, 0.96)58.85%);
+      color: white;
     }
   }
 

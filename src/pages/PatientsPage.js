@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 function PatientsPage() {
     const currentItem = useSelector(state => state.currentItem);
-    const currentStudy = useSelector(state => state.data[currentItem.conditionId][currentItem.studyId]?.data);
+    const currentStudy = useSelector(state => state.data[currentItem.classId][currentItem.studyId]?.data);
     const dispatch = useDispatch()
     const navigate = useNavigate();
     const setPatientID = (id) => {

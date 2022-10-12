@@ -1,18 +1,26 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux';
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { setCurrentPatient } from '../redux/actions/index';
 import GoBackButton from '../components/GoBackButton'
 import Header from '../components/Header'
-import { setPatientId } from '../redux/actions/index';
-import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 function AllPatientsListPage() {
-    const currentItem = useSelector(state => state.currentItem);
-    const currentStudy = useSelector(state => state.data[currentItem.conditionId][currentItem.studyId]?.data);
-    const dispatch = useDispatch()
+    const baseUrl = useSelector(state => state.baseUrl);
     const navigate = useNavigate();
-    const setPatientID = (id) => {
-        dispatch(setPatientId(id));
-    }
+    const [allPatient, setAllPatient] = useState([])
+    const dispatch = useDispatch()
+    useEffect(()=>{
+        axios.get(baseUrl + '/patient/all-patients')
+        .then(res => {
+            // console.log(res.data)
+            setAllPatient(res.data)
+        })
+        .catch((error) => {
+            // console.log(error);
+        });
+    },[baseUrl])
     return (
         <div className='PatientsPage'>
             <Header />
@@ -20,7 +28,7 @@ function AllPatientsListPage() {
                 <GoBackButton />
                 <div className='top'>
                     <div className='top-right'>
-                        <p>ENROLLED : {currentStudy?.length}</p>
+                        <p>ENROLLED : {allPatient.length}</p>
                         <p>PATIENTS</p>
                         <p>SORT BY NAME</p>
                     </div>
@@ -77,10 +85,13 @@ function AllPatientsListPage() {
                     </div>
                     <div className='right'>
                         {
-                            currentStudy?.map((item, index) => {
+                            allPatient?.map((item, index) => {
                                 return (
                                     <div className='patient-item' key={'patient-item' + index}
-                                        onClick={() => { setPatientID(index); navigate('/patient-detail') }}>
+                                        onClick={() => {
+                                            navigate('/one-patient')
+                                            dispatch(setCurrentPatient(item));
+                                        }}>
                                         <div className='patient-item-left'>
                                             <div className='patient-item-data'>
                                                 <p>PATIENT ID :</p>

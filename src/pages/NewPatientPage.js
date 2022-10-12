@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+import { useSelector } from 'react-redux';
 import Header from '../components/Header'
 import axios from 'axios';
 import GoBackButton from '../components/GoBackButton';
 
 function NewPatientPage() {
+    const baseUrl = useSelector(state => state.baseUrl);
     const [patientId, setPatientId] = useState('')    
     const [givenName, setGivenName] = useState('')
     const [middleName, setMiddleName] = useState('')
@@ -94,10 +96,10 @@ function NewPatientPage() {
                             diagnosis: diagnosis,
                             dateOfFirstTreatment: dateOfFirstTreatment
                         };
-                        axios.post('http://localhost:4000/patient/create-patient', patientObject)
+                        axios.post(baseUrl + '/patient/create-patient', patientObject)
                             .then(res => {
-                                console.log(res.data)
                                 if (res.data?.success) {
+                                    alert('A New Patient Successfully Created..')
                                     setPatientId('')
                                     setGivenName('')
                                     setMiddleName('')

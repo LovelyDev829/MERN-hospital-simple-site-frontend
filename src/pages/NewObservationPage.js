@@ -7,7 +7,7 @@ import { addObservation } from '../redux/actions/index';
 
 function NewObservationPage() {
     const currentItem = useSelector(state => state.currentItem);
-    const currentPatient = useSelector(state => state.data[currentItem.conditionId][currentItem.studyId]?.data[currentItem.patientId]);
+    const currentPatient = useSelector(state => state.data[currentItem.classId][currentItem.studyId]?.data[currentItem.patientId]);
     const dispatch = useDispatch()
     const navigate = useNavigate();
     const addObservatioN = (dateOfObsevation, heartRate, bloodPressure, respiratoryRate, levelOfConsciousness, pulseOximetry, observationNotes) => {

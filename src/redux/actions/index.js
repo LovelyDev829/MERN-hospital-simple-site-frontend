@@ -17,7 +17,7 @@ export const logout = () => {
     }
 }
 
-export const setConditionId = (id) => {
+export const setClassId = (id) => {
     return {
         type: 'SET_CONDITION_ID',
         payload: {
@@ -55,6 +55,24 @@ export const addObservation = (dateOfObsevation, heartRate, bloodPressure, respi
             levelOfConsciousness: levelOfConsciousness,
             pulseOximetry: pulseOximetry,
             observationNotes: observationNotes
+        }
+    }
+}
+
+export const setCurrentPatient = (patient) => {
+    return {
+        type: 'SET_CURRENT_PATIENT',
+        payload: {
+            patient: patient
+        }
+    }
+}
+
+export const updateCurrentPatient = (patient) => {
+    return {
+        type: 'UPDATE_CURRENT_PATIENT',
+        payload: {
+            patient: patient
         }
     }
 }

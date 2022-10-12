@@ -10,6 +10,9 @@ import NewObservationPage from './pages/NewObservationPage';
 import QuestionsPage from './pages/QuestionsPage';
 import AllPatientsListPage from './pages/AllPatientsListPage';
 import NewPatientPage from './pages/NewPatientPage';
+import OnePatientPage from './pages/OnePatientPage';
+import OnePatientEditPage from './pages/OnePatientEditPage';
+import NewStudyPage from './pages/NewStudyPage';
 
 function Routing() {
     const loginFlag = useSelector(state => state.loginFlag);
@@ -29,6 +32,9 @@ function Routing() {
                 {loginFlag && <Route exact path="/questions" element={ <QuestionsPage/> } />}
                 {loginFlag && <Route exact path="/all-patients-list" element={ <AllPatientsListPage/> } />}
                 {loginFlag && <Route exact path="/new-patient" element={ <NewPatientPage/> } />}
+                {loginFlag && <Route exact path="/one-patient" element={ <OnePatientPage/> } />}
+                {loginFlag && <Route exact path="/one-patient-edit" element={ <OnePatientEditPage/> } />}
+                {loginFlag && <Route exact path="/new-study" element={ <NewStudyPage/> } />}
             </Routes>
         </Router>
     )

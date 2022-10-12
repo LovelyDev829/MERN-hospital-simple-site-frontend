@@ -2,15 +2,16 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header'
-import { setConditionId } from '../redux/actions/index';
+import { setClassId } from '../redux/actions/index';
 import axios from 'axios';
 
 function MenuPage() {
   const nowUser = useSelector(state => state.nowUser);
+  const baseUrl = useSelector(state => state.baseUrl);
   const navigate = useNavigate();
   const dispatch = useDispatch()
-  const setConditionID = (id) => {
-    dispatch(setConditionId(id));
+  const setClassID = (id) => {
+    dispatch(setClassId(id));
   }
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
@@ -67,7 +68,7 @@ function MenuPage() {
                   password: password,
                   userType: userType
                 };
-                axios.post('http://localhost:4000/user/create-user', userObject)
+                axios.post(baseUrl + '/user/create-user', userObject)
                   .then(res => {
                     // console.log(res.data)
                     if (res.data?.success) {
@@ -93,19 +94,19 @@ function MenuPage() {
           <div className='main'>
             <p className='title'>GOOD ATFERNOON</p>
             <div className='button' onClick={() => {
-              setConditionID(0)
+              setClassID(0)
               navigate('/clinical-studies')
             }}>ALL CLINICAL STUDIES</div>
             <div className='button' onClick={() => {
-              setConditionID(1)
+              setClassID(1)
               navigate('/trial-organisations')
             }}>ALL TRIAL ORGANIZATIONS</div>
             <div className='button' onClick={() => {
-              setConditionID(2)
+              // setClassID(2)
               navigate('/questions')
             }}>QUESTIONNAIRE</div>
             <div className='button' onClick={() => {
-              setConditionID(3)
+              // setClassID(3)
               navigate('/all-patients-list')
             }}>LIST OF ALL PATIENTS</div>
           </div>
@@ -118,19 +119,19 @@ function MenuPage() {
           <div className='main'>
             <p className='title'>GOOD AFTERNOON</p>
             <div className='button' onClick={() => {
-              setConditionID(0)
+              setClassID(0)
               navigate('/clinical-studies')
             }}>ALL CLINICAL STUDIES</div>
             <div className='button' onClick={() => {
-              setConditionID(1)
+              setClassID(1)
               navigate('/trial-organisations')
             }}>ALL TRIAL ORGANIZATIONS</div>
             <div className='button' onClick={() => {
-              setConditionID(2)
+              // setClassID(2)
               navigate('/new-patient')
             }}>CREATE A PATIENT RECORD</div>
             <div className='button' onClick={() => {
-              setConditionID(3)
+              // setClassID(3)
               navigate('/all-patients-list')
             }}>LIST OF ALL PATIENTS</div>
           </div>

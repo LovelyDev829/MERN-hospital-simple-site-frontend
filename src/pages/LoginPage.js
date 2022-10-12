@@ -6,17 +6,19 @@ import axios from 'axios';
 
 function LoginPage() {
     const loginFlag = useSelector(state => state.loginFlag);
+    const baseUrl = useSelector(state => state.baseUrl);
     const navigate = useNavigate();
     const dispatch = useDispatch()
     const logiN = () => {
-        axios.post('http://localhost:4000/user/check-user', { email: email, password: password })
+        axios.post(baseUrl+'/user/check-user', { email: email, password: password })
             .then(res => {
-                console.log("check-user", res.data)
+                // console.log("check-user", res.data)
                 if (res.data[0]) {
                     dispatch(login(res.data[0]));
                     setEmail("")
                     setPassword("")
                 }
+                else alert("Wrong Login Info...")
             })
             .catch((error) => {
                 alert("Wrong Login Info...")

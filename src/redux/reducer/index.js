@@ -1,29 +1,6 @@
 let initState = {
-    baseUrl: '',
+    baseUrl: 'http://localhost:4000',
     loginFlag: false,
-    // users: [
-    //     {
-    //         email: 'admin@gmail.com',
-    //         password: 'password',
-    //         firstName: 'admin',
-    //         lastName: 'admin',
-    //         userType: 'admin'
-    //     },
-    //     {
-    //         email: 'nurse@gmail.com',
-    //         password: 'password',
-    //         firstName: 'Nurse',
-    //         lastName: 'Nurse',
-    //         userType: 'Nurse'
-    //     },
-    //     {
-    //         email: 'stuff@gmail.com',
-    //         password: 'password',
-    //         firstName: 'stuff',
-    //         lastName: 'stuff',
-    //         userType: 'stuff'
-    //     }
-    // ],
     nowUser: {
         email: '',
         password: '',
@@ -33,10 +10,11 @@ let initState = {
     },
     currentItem: {
         userType: 0,
-        conditionId: 0,
+        classId: 0,
         studyId: 0,
         patientId: 0
     },
+    currentPatient: {},
     data: [
         [
             {
@@ -5195,7 +5173,7 @@ const reducer = (state = initState, action) => {
                 ...state,
                 currentItem: {
                     ...state.currentItem,
-                    conditionId: action.payload.id
+                    classId: action.payload.id
                 }
             }
         }
@@ -5217,22 +5195,45 @@ const reducer = (state = initState, action) => {
                 }
             }
         }
+        case 'SET_CURRENT_PATIENT': {
+            return {
+                ...state,
+                currentPatient: action.payload.patient
+            }
+        }
+        case 'UPDATE_CURRENT_PATIENT': {
+            return {
+                ...state,
+                currentPatient: {
+                    ...state.currentPatient,
+                    patientId: action.payload.patient.patientId,
+                    givenName: action.payload.patient.givenName,
+                    middleName: action.payload.patient.middleName,
+                    surName: action.payload.patient.surName,
+                    gender: action.payload.patient.gender,
+                    dateOfBirth: action.payload.patient.dateOfBirth,
+                    bloodGroup: action.payload.patient.bloodGroup,
+                    diagnosis: action.payload.patient.diagnosis,
+                    dateOfFirstTreatment: action.payload.patient.dateOfFirstTreatment
+                }
+            }
+        }
         case 'ADD_OBSERVATION': {
             console.log("temp", state.data)
             return {
                 ...state,
                 data: [
                     ...state.data,
-                    (state.currentItem.conditionId), [
-                        ...state.data[state.currentItem.conditionId],
+                    (state.currentItem.classId), [
+                        ...state.data[state.currentItem.classId],
                         (state.currentItem.studyId), {
-                            ...state.data[state.currentItem.conditionId][state.currentItem.studyId],
+                            ...state.data[state.currentItem.classId][state.currentItem.studyId],
                             data: [
-                                ...state.data[state.currentItem.conditionId][state.currentItem.studyId].data,
+                                ...state.data[state.currentItem.classId][state.currentItem.studyId].data,
                                 (state.currentItem.patientId), {
-                                    ...state.data[state.currentItem.conditionId][state.currentItem.studyId].data[state.currentItem.patientId],
+                                    ...state.data[state.currentItem.classId][state.currentItem.studyId].data[state.currentItem.patientId],
                                     observation: [
-                                        ...state.data[state.currentItem.conditionId][state.currentItem.studyId].data[state.currentItem.patientId].observation,
+                                        ...state.data[state.currentItem.classId][state.currentItem.studyId].data[state.currentItem.patientId].observation,
                                         {
                                             dateOfObsevation: action.payload.dateOfObsevation,
                                             heartRate: action.payload.heartRate,

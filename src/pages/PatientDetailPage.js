@@ -6,7 +6,7 @@ import GoBackButton from '../components/GoBackButton'
 
 function PatientDetailPage() {
     const currentItem = useSelector(state => state.currentItem);
-    const currentPatient = useSelector(state => state.data[currentItem.conditionId][currentItem.studyId]?.data[currentItem.patientId]);
+    const currentPatient = useSelector(state => state.data[currentItem.classId][currentItem.studyId]?.data[currentItem.patientId]);
     const navigate = useNavigate();
     return (
         <div className='PatientDetailPage'>
