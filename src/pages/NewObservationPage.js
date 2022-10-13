@@ -1,19 +1,15 @@
 import React, { useState } from 'react'
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header'
 import GoBackButton from '../components/GoBackButton'
-import { addObservation } from '../redux/actions/index';
+import axios from 'axios';
 
 function NewObservationPage() {
-    const currentItem = useSelector(state => state.currentItem);
-    const currentPatient = useSelector(state => state.data[currentItem.classId][currentItem.studyId]?.data[currentItem.patientId]);
-    const dispatch = useDispatch()
+    const baseUrl = useSelector(state => state.baseUrl);
+    const currentPatient = useSelector(state => state.currentPatient);
     const navigate = useNavigate();
-    const addObservatioN = (dateOfObsevation, heartRate, bloodPressure, respiratoryRate, levelOfConsciousness, pulseOximetry, observationNotes) => {
-        dispatch(addObservation(dateOfObsevation, heartRate, bloodPressure, respiratoryRate, levelOfConsciousness, pulseOximetry, observationNotes))
-    }
-    const [dateOfObsevation, SetDateOfObservatin] = useState('')
+    const [dateOfObservation, SetDateOfObservation] = useState('')
     const [heartRate, SetHeartRate] = useState('')
     const [bloodPressure, SetBloodPressure] = useState('')
     const [respiratoryRate, SetRespiratoryRate] = useState('')
@@ -75,10 +71,26 @@ function NewObservationPage() {
                         </div>
                         <div className='left-bottom'>
                             <div className='button' onClick={() => {
-                                if (dateOfObsevation !== '' && heartRate !== '' && bloodPressure !== '' && respiratoryRate !== '' &&
-                                    levelOfConsciousness !== '' && pulseOximetry !== '' && observationNotes !== '') {
-                                    addObservatioN(dateOfObsevation, heartRate, bloodPressure, respiratoryRate, levelOfConsciousness, pulseOximetry, observationNotes)
-                                    navigate(-1)
+                                if (dateOfObservation && heartRate && bloodPressure && respiratoryRate
+                                    && levelOfConsciousness && pulseOximetry && observationNotes) {
+                                    const tempObject = {
+                                        currentPatientId: currentPatient._id,
+                                        dateOfObservation: dateOfObservation,
+                                        heartRate: heartRate,
+                                        bloodPressure: bloodPressure,
+                                        respiratoryRate: respiratoryRate,
+                                        levelOfConsciousness: levelOfConsciousness,
+                                        pulseOximetry: pulseOximetry,
+                                        observationNotes: observationNotes
+                                    }
+                                    axios.post(baseUrl + '/observation/create-observation', tempObject)
+                                        .then(res => {
+                                            if (res.data?.success) {
+                                                // alert("success")
+                                                navigate(-1)
+                                            }
+                                        })
+                                        .catch((error) => { });
                                 }
                             }}>SAVE</div>
                         </div>
@@ -87,8 +99,8 @@ function NewObservationPage() {
                         <div className='observation-item'>
                             <p>DATE OF THE OBSERVATION :</p>
                             <div className='input-box'>
-                                <input placeholder='Date of the Observation'
-                                    value={dateOfObsevation} onChange={(e) => { SetDateOfObservatin(e.target.value) }} />
+                                <input placeholder='Date of the Observation' type={"date"}
+                                    value={dateOfObservation} onChange={(e) => { SetDateOfObservation(e.target.value) }} />
                             </div>
                         </div>
                         <div className='observation-item'>

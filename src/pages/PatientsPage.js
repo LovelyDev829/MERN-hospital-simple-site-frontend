@@ -9,6 +9,7 @@ import axios from 'axios';
 
 function PatientsPage() {
     const baseUrl = useSelector(state => state.baseUrl);
+    const userType = useSelector(state => state.nowUser.userType)
     const currentClassId = useSelector(state => state.currentItem.classId)
     const currentStudy_id = useSelector(state => state.currentItem.study_id)
     const dispatch = useDispatch()
@@ -85,7 +86,11 @@ function PatientsPage() {
                         </div>
                         <div className='left-bottom'>
                             <div className='button'>SEARCH FOR PATIENT</div>
-                            <div className='button' onClick={()=>{navigate('/all-patients-list')}}>ADD A NEW PATIENT</div>
+                            {
+                                (userType === 'stuff') ?
+                                <div className='button' onClick={()=>{navigate('/all-patients-list')}}>ADD A NEW PATIENT</div>
+                                : <></>
+                            }
                         </div>
                     </div>
                     <div className='right'>
@@ -96,7 +101,8 @@ function PatientsPage() {
                                     onClick={()=>{
                                         setPatientID(index);
                                         dispatch(setCurrentPatient(item));
-                                        navigate('/one-patient')
+                                        if(userType === 'stuff') navigate('/one-patient')
+                                        else navigate('/observations')
                                     }}>
                                         <div className='patient-item-left'>
                                             <div className='patient-item-data'>

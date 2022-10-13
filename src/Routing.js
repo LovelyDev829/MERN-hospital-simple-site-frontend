@@ -13,6 +13,8 @@ import NewPatientPage from './pages/NewPatientPage';
 import OnePatientPage from './pages/OnePatientPage';
 import OnePatientEditPage from './pages/OnePatientEditPage';
 import NewStudyPage from './pages/NewStudyPage';
+import QuestionsChangePage from './pages/QuestionsChangePage';
+import ObservationsPage from './pages/ObservationsPage';
 
 function Routing() {
     const loginFlag = useSelector(state => state.loginFlag);
@@ -28,13 +30,15 @@ function Routing() {
                 {loginFlag && <Route exact path="/trial-organisations" element={<SubMenuPage dataToShow={1}/> } />}
                 {loginFlag && <Route exact path="/patients" element={ <PatientsPage/> } />}
                 {loginFlag && <Route exact path="/patient-detail" element={ <PatientDetailPage/> } />}
-                {loginFlag && <Route exact path="/new-observation" element={ <NewObservationPage/> } />}
                 {loginFlag && <Route exact path="/questions" element={ <QuestionsPage/> } />}
+                {loginFlag && <Route exact path="/questions-change" element={ <QuestionsChangePage/> } />}
                 {loginFlag && <Route exact path="/all-patients-list" element={ <AllPatientsListPage/> } />}
                 {loginFlag && <Route exact path="/new-patient" element={ <NewPatientPage/> } />}
                 {loginFlag && <Route exact path="/one-patient" element={ <OnePatientPage/> } />}
                 {loginFlag && <Route exact path="/one-patient-edit" element={ <OnePatientEditPage/> } />}
                 {loginFlag && <Route exact path="/new-study" element={ <NewStudyPage/> } />}
+                {loginFlag && <Route exact path="/observations" element={ <ObservationsPage/> } />}
+                {loginFlag && <Route exact path="/new-observation" element={ <NewObservationPage/> } />}
             </Routes>
         </Router>
     )

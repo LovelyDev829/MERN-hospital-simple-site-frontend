@@ -1,10 +1,13 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import GoBackButton from '../components/GoBackButton'
 import Header from '../components/Header'
 
 function QuestionsPage() {
   const currentPatient = useSelector(state => state.currentPatient);
+  const currentQuestions = currentPatient?.questions
+  const navigate = useNavigate();
   return (
     <div className='QuestionsPage'>
       <Header />
@@ -59,7 +62,7 @@ function QuestionsPage() {
               </div>
             </div>
             <div className='left-bottom'>
-              <div className='button'>RECORD NEW ANSWERS</div>
+              <div className='button' onClick={() => navigate('/questions-change')}>RECORD NEW ANSWERS</div>
             </div>
           </div>
           <div className='right'>
@@ -67,55 +70,55 @@ function QuestionsPage() {
               onClick={() => {
               }}>
               <div className='patient-item-left'>
-                <p>21/02/2022 10:58 am</p>
-                <p>How are you feeling after the Treatment ?</p>
+                <p>{currentQuestions[0]?.modifiedTime ? currentQuestions[0]?.modifiedTime : '21/02/2022 10:58 am'}</p>
+                <p>{currentQuestions[0]?.question ? currentQuestions[0]?.question : 'How are you feeling after the Treatment?'}</p>
               </div>
               <div className='patient-item-right'>
-                4/5
+                {currentQuestions[0]?.answer ? currentQuestions[0]?.answer + '/5' : 'Null'}
               </div>
             </div>
             <div className='patient-item'
               onClick={() => {
               }}>
               <div className='patient-item-left'>
-                <p>21/02/2022 10:58 am</p>
-                <p>How are you feeling after the Treatment ?</p>
+                <p>{currentQuestions[1]?.modifiedTime ? currentQuestions[1]?.modifiedTime : '21/02/2022 10:58 am'}</p>
+                <p>{currentQuestions[1]?.question ? currentQuestions[1]?.question : 'How are you feeling after the Treatment?'}</p>
               </div>
               <div className='patient-item-right'>
-                4/5
+                {currentQuestions[1]?.answer ? currentQuestions[1]?.answer + '/5' : 'Null'}
               </div>
             </div>
             <div className='patient-item'
               onClick={() => {
               }}>
               <div className='patient-item-left'>
-                <p>21/02/2022 10:58 am</p>
-                <p>How are you feeling after the Treatment ?</p>
+                <p>{currentQuestions[2]?.modifiedTime ? currentQuestions[2]?.modifiedTime : '21/02/2022 10:58 am'}</p>
+                <p>{currentQuestions[2]?.question ? currentQuestions[2]?.question : 'How are you feeling after the Treatment?'}</p>
               </div>
               <div className='patient-item-right'>
-                4/5
+                {currentQuestions[2]?.answer ? currentQuestions[2]?.answer + '/5' : 'Null'}
               </div>
             </div>
             <div className='patient-item'
               onClick={() => {
               }}>
               <div className='patient-item-left'>
-                <p>21/02/2022 10:58 am</p>
-                <p>How are you feeling after the Treatment ?</p>
+                <p>{currentQuestions[3]?.modifiedTime ? currentQuestions[3]?.modifiedTime : '21/02/2022 10:58 am'}</p>
+                <p>{currentQuestions[3]?.question ? currentQuestions[3]?.question : 'How are you feeling after the Treatment?'}</p>
               </div>
               <div className='patient-item-right'>
-                4/5
+                {currentQuestions[3]?.answer ? currentQuestions[3]?.answer + '/5' : 'Null'}
               </div>
             </div>
             <div className='patient-item'
               onClick={() => {
               }}>
               <div className='patient-item-left'>
-                <p>21/02/2022 10:58 am</p>
-                <p>How are you feeling after the Treatment ?</p>
+                <p>{currentQuestions[4]?.modifiedTime ? currentQuestions[4]?.modifiedTime : '21/02/2022 10:58 am'}</p>
+                <p>{currentQuestions[4]?.question ? currentQuestions[4]?.question : 'How are you feeling after the Treatment?'}</p>
               </div>
               <div className='patient-item-right'>
-                4/5
+                {currentQuestions[4]?.answer ? currentQuestions[4]?.answer + '/5' : 'Null'}
               </div>
             </div>
           </div>

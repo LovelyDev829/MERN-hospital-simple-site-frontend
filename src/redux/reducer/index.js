@@ -34,7 +34,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -43,7 +43,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -52,47 +52,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -114,7 +74,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -123,7 +83,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -132,47 +92,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -194,7 +114,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -203,7 +123,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -212,47 +132,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -274,7 +154,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -283,7 +163,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -292,7 +172,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -319,7 +319,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -328,7 +328,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -337,47 +337,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -399,7 +359,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -408,7 +368,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -417,47 +377,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -479,7 +399,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -488,7 +408,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -497,47 +417,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -559,7 +439,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -568,7 +448,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -577,7 +457,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -604,7 +604,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -613,7 +613,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -622,47 +622,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -684,7 +644,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -693,7 +653,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -702,47 +662,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -764,7 +684,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -773,7 +693,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -782,47 +702,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -844,7 +724,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -853,7 +733,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -862,7 +742,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -889,7 +889,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -898,7 +898,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -907,47 +907,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -969,7 +929,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -978,7 +938,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -987,47 +947,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1049,7 +969,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1058,7 +978,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1067,47 +987,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1129,7 +1009,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1138,7 +1018,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1147,7 +1027,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1174,7 +1174,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1183,7 +1183,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1192,47 +1192,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1254,7 +1214,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1263,7 +1223,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1272,47 +1232,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1334,7 +1254,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1343,7 +1263,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1352,47 +1272,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1414,7 +1294,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1423,7 +1303,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1432,7 +1312,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1459,7 +1459,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1468,7 +1468,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1477,47 +1477,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1539,7 +1499,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1548,7 +1508,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1557,47 +1517,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1619,7 +1539,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1628,7 +1548,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1637,47 +1557,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1699,7 +1579,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1708,7 +1588,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1717,7 +1597,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1744,7 +1744,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1753,7 +1753,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1762,47 +1762,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1824,7 +1784,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1833,7 +1793,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1842,47 +1802,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1904,7 +1824,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1913,7 +1833,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1922,47 +1842,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1984,7 +1864,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -1993,7 +1873,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2002,7 +1882,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2029,7 +2029,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2038,7 +2038,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2047,47 +2047,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2109,7 +2069,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2118,7 +2078,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2127,47 +2087,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2189,7 +2109,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2198,7 +2118,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2207,47 +2127,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2269,7 +2149,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2278,7 +2158,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2287,7 +2167,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2314,7 +2314,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2323,7 +2323,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2332,47 +2332,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2394,7 +2354,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2403,7 +2363,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2412,47 +2372,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2474,7 +2394,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2483,7 +2403,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2492,47 +2412,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2554,7 +2434,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2563,7 +2443,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2572,7 +2452,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2601,7 +2601,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2610,7 +2610,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2619,47 +2619,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2681,7 +2641,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2690,7 +2650,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2699,47 +2659,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2761,7 +2681,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2770,7 +2690,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2779,47 +2699,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2841,7 +2721,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2850,7 +2730,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2859,7 +2739,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2886,7 +2886,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2895,7 +2895,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2904,47 +2904,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2966,7 +2926,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2975,7 +2935,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -2984,47 +2944,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3046,7 +2966,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3055,7 +2975,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3064,47 +2984,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3126,7 +3006,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3135,7 +3015,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3144,7 +3024,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3171,7 +3171,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3180,7 +3180,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3189,47 +3189,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3251,7 +3211,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3260,7 +3220,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3269,47 +3229,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3331,7 +3251,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3340,7 +3260,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3349,47 +3269,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3411,7 +3291,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3420,7 +3300,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3429,7 +3309,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3456,7 +3456,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3465,7 +3465,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3474,47 +3474,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3536,7 +3496,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3545,7 +3505,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3554,47 +3514,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3616,7 +3536,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3625,7 +3545,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3634,47 +3554,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3696,7 +3576,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3705,7 +3585,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3714,7 +3594,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3741,7 +3741,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3750,7 +3750,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3759,47 +3759,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3821,7 +3781,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3830,7 +3790,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3839,47 +3799,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3901,7 +3821,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3910,7 +3830,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3919,47 +3839,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3981,7 +3861,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3990,7 +3870,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -3999,7 +3879,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4026,7 +4026,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4035,7 +4035,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4044,47 +4044,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4106,7 +4066,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4115,7 +4075,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4124,47 +4084,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4186,7 +4106,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4195,7 +4115,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4204,47 +4124,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4266,7 +4146,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4275,7 +4155,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4284,7 +4164,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4311,7 +4311,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4320,7 +4320,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4329,47 +4329,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4391,7 +4351,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4400,7 +4360,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4409,47 +4369,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4471,7 +4391,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4480,7 +4400,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4489,47 +4409,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4551,7 +4431,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4560,7 +4440,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4569,7 +4449,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4596,7 +4596,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4605,7 +4605,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4614,47 +4614,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4676,7 +4636,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4685,7 +4645,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4694,47 +4654,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4756,7 +4676,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4765,7 +4685,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4774,47 +4694,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4836,7 +4716,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4845,7 +4725,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4854,7 +4734,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4881,7 +4881,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4890,7 +4890,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4899,47 +4899,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4961,7 +4921,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4970,7 +4930,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -4979,47 +4939,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -5041,7 +4961,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -5050,7 +4970,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -5059,47 +4979,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                        ]
-                    },
-                    {
-                        patientId: '123-456-789',
-                        surName: 'Surname',
-                        middleName: 'Middle Name',
-                        gender: 'Gender',
-                        givenName: 'Given Name',
-                        dateOfBirth: 'DD/MM/YYYY',
-                        bloodGroup: 'Blood Group',
-                        diagnosis: 'Diagnosis',
-                        dateOfFirstTreatment: 'DD/MM/YYYY',
-                        observation: [
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
-                                heartRate: 'Heart Rate',
-                                bloodPressure: 'Blood Pressure',
-                                respiratoryRate: 'Respiratory Rate',
-                                levelOfConsciousness: 'Level of Consciousness',
-                                pulseOximetry: 'Pulse Oximetry',
-                                observationNotes: 'Observation Notes'
-                            },
-                            {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -5121,7 +5001,7 @@ let initState = {
                         dateOfFirstTreatment: 'DD/MM/YYYY',
                         observation: [
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -5130,7 +5010,7 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -5139,7 +5019,127 @@ let initState = {
                                 observationNotes: 'Observation Notes'
                             },
                             {
-                                dateOfObsevation: 'Date of obsevation',
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                        ]
+                    },
+                    {
+                        patientId: '123-456-789',
+                        surName: 'Surname',
+                        middleName: 'Middle Name',
+                        gender: 'Gender',
+                        givenName: 'Given Name',
+                        dateOfBirth: 'DD/MM/YYYY',
+                        bloodGroup: 'Blood Group',
+                        diagnosis: 'Diagnosis',
+                        dateOfFirstTreatment: 'DD/MM/YYYY',
+                        observation: [
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
+                                heartRate: 'Heart Rate',
+                                bloodPressure: 'Blood Pressure',
+                                respiratoryRate: 'Respiratory Rate',
+                                levelOfConsciousness: 'Level of Consciousness',
+                                pulseOximetry: 'Pulse Oximetry',
+                                observationNotes: 'Observation Notes'
+                            },
+                            {
+                                dateOfObservation: 'Date of observation',
                                 heartRate: 'Heart Rate',
                                 bloodPressure: 'Blood Pressure',
                                 respiratoryRate: 'Respiratory Rate',
@@ -5222,6 +5222,17 @@ const reducer = (state = initState, action) => {
                 currentPatient: action.payload.patient
             }
         }
+
+        case 'SET_QUESTIONS': {
+            return {
+                ...state,
+                currentPatient: {
+                    ...state.currentPatient,
+                    questions: action.payload.questionObject.questions
+                }
+            }
+        }
+
         case 'UPDATE_CURRENT_PATIENT': {
             return {
                 ...state,
@@ -5255,7 +5266,7 @@ const reducer = (state = initState, action) => {
                                     observation: [
                                         ...state.data[state.currentItem.classId][state.currentItem.studyId].data[state.currentItem.patientId].observation,
                                         {
-                                            dateOfObsevation: action.payload.dateOfObsevation,
+                                            dateOfObservation: action.payload.dateOfObservation,
                                             heartRate: action.payload.heartRate,
                                             bloodPressure: action.payload.bloodPressure,
                                             respiratoryRate: action.payload.respiratoryRate,

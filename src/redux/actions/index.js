@@ -62,11 +62,20 @@ export const setPatient_Id = (id) => {
     }
 }
 
-export const addObservation = (dateOfObsevation, heartRate, bloodPressure, respiratoryRate, levelOfConsciousness, pulseOximetry, observationNotes) => {
+export const setQuestions = (questionObject) => {
+    return {
+        type: 'SET_QUESTIONS',
+        payload: {
+            questionObject: questionObject
+        }
+    }
+}
+
+export const addObservation = (dateOfObservation, heartRate, bloodPressure, respiratoryRate, levelOfConsciousness, pulseOximetry, observationNotes) => {
     return {
         type: 'ADD_OBSERVATION',
         payload: {
-            dateOfObsevation: dateOfObsevation,
+            dateOfObservation: dateOfObservation,
             heartRate: heartRate,
             bloodPressure : bloodPressure,
             respiratoryRate: respiratoryRate,

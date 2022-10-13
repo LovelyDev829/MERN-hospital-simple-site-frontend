@@ -72,7 +72,7 @@ function PatientDetailPage() {
                                     <div className='observation-item' key={'observation-item'+index}>
                                         <div className='observation-item-data'>
                                             <p>DATE OF THE OBSERVATION :</p>
-                                            <p>{item.dateOfObsevation}</p>
+                                            <p>{item.dateOfObservation}</p>
                                         </div>
                                         <div className='observation-item-data'>
                                             <p>HEART RATE :</p>
