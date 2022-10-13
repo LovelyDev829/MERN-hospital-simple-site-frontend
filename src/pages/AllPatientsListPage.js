@@ -8,19 +8,21 @@ import axios from 'axios';
 
 function AllPatientsListPage() {
     const baseUrl = useSelector(state => state.baseUrl);
+    const currentUserType = useSelector(state => state.nowUser.userType)
+    const currentClassId = useSelector(state => state.currentItem.classId);
+    const currentStudy_id = useSelector(state => state.currentItem.study_id);
     const navigate = useNavigate();
-    const [allPatient, setAllPatient] = useState([])
     const dispatch = useDispatch()
-    useEffect(()=>{
-        axios.get(baseUrl + '/patient/all-patients')
-        .then(res => {
-            // console.log(res.data)
-            setAllPatient(res.data)
-        })
-        .catch((error) => {
-            // console.log(error);
-        });
-    },[baseUrl])
+    const [allPatient, setAllPatient] = useState([])
+    useEffect(() => {
+        const tempObject = { studyId: (currentClassId === 0 || currentClassId === 1) ? currentStudy_id : 0 }
+        axios.post(baseUrl + '/patient/all-patients-available', tempObject)
+            .then(res => {
+                setAllPatient(res.data)
+            })
+            .catch((error) => {
+            });
+    }, [baseUrl, currentStudy_id, currentClassId])
     return (
         <div className='PatientsPage'>
             <Header />
@@ -29,7 +31,7 @@ function AllPatientsListPage() {
                 <div className='top'>
                     <div className='top-right'>
                         <p>ENROLLED : {allPatient.length}</p>
-                        <p>PATIENTS</p>
+                        <p>ALL PATIENTS</p>
                         <p>SORT BY NAME</p>
                     </div>
                 </div>
@@ -89,8 +91,47 @@ function AllPatientsListPage() {
                                 return (
                                     <div className='patient-item' key={'patient-item' + index}
                                         onClick={() => {
-                                            navigate('/one-patient')
-                                            dispatch(setCurrentPatient(item));
+                                            const classUpdateObject = {
+                                                studyId: currentStudy_id,
+                                                patientId: item._id
+                                            }
+                                            switch (currentClassId) {
+
+                                                case 0:
+                                                    axios.put(baseUrl + '/study/add-a-patient', classUpdateObject)
+                                                        .then(res => {
+                                                            if (res.data.success) {
+                                                                // alert("Added a patient to a Clinical Study")
+                                                                navigate(-1)
+                                                            }
+                                                        })
+                                                        .catch((error) => { });
+                                                    break
+                                                case 1:
+                                                    axios.put(baseUrl + '/study/add-a-patient', classUpdateObject)
+                                                        .then(res => {
+                                                            if (res.data.success) {
+                                                                // alert("Added a patient to a Trial Organisation")
+                                                                navigate(-1)
+                                                            }
+                                                        })
+                                                        .catch((error) => { });
+                                                    break
+                                                case 2:
+                                                    if (currentUserType === 'nurse') {
+                                                        dispatch(setCurrentPatient(item))
+                                                        navigate('/questions')
+                                                    }
+                                                    break
+                                                default:
+                                                    if (currentUserType === 'stuff') {
+                                                        dispatch(setCurrentPatient(item));
+                                                        navigate('/one-patient')
+                                                    }
+                                                    // else{
+                                                    //     alert("This function only available for stuffs.")
+                                                    // }
+                                            }
                                         }}>
                                         <div className='patient-item-left'>
                                             <div className='patient-item-data'>

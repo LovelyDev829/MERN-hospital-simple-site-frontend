@@ -12,7 +12,9 @@ let initState = {
         userType: 0,
         classId: 0,
         studyId: 0,
-        patientId: 0
+        study_id: 0,
+        patientId: 0,
+        patient_id: 0
     },
     currentPatient: {},
     data: [
@@ -5168,7 +5170,7 @@ const reducer = (state = initState, action) => {
                 nowUser: {}
             }
         }
-        case 'SET_CONDITION_ID': {
+        case 'SET_CLASS_ID': {
             return {
                 ...state,
                 currentItem: {
@@ -5195,6 +5197,25 @@ const reducer = (state = initState, action) => {
                 }
             }
         }
+        case 'SET_STUDY__ID': {
+            return {
+                ...state,
+                currentItem: {
+                    ...state.currentItem,
+                    study_id: action.payload.id
+                }
+            }
+        }
+        case 'SET_PATIENT__ID': {
+            return {
+                ...state,
+                currentItem: {
+                    ...state.currentItem,
+                    patient_id: action.payload.id
+                }
+            }
+        }
+
         case 'SET_CURRENT_PATIENT': {
             return {
                 ...state,
@@ -5219,7 +5240,6 @@ const reducer = (state = initState, action) => {
             }
         }
         case 'ADD_OBSERVATION': {
-            console.log("temp", state.data)
             return {
                 ...state,
                 data: [

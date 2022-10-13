@@ -290,10 +290,11 @@
           box-sizing: border-box;
 
           .left-top {
-            height: calc(100vh - 230px);
+            height: calc(100vh - 280px);
             box-sizing: border-box;
             border: 3px solid #8DA9FF;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+
             .input-item {
               padding: 5px 10px 5px 10px;
 
@@ -332,7 +333,7 @@
               padding: 10px 0px 10px 0px;
               width: 100%;
               margin: auto;
-              // margin-top: 20px;
+              margin-bottom: 10px;
             }
           }
         }
@@ -959,6 +960,161 @@
     }
   }
 
+  .QuestionsPage {
+    .main {
+      width: 100%;
+      box-sizing: border-box;
+
+      .top {
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+
+        .top-left {
+          width: 40%;
+          height: 100%;
+          display: flex;
+          align-items: flex-end;
+          box-sizing: border-box;
+
+          p {
+            margin: 0px auto 0px auto;
+            font-size: 30px;
+            font-weight: 700;
+          }
+        }
+
+        .top-right {
+          width: 60%;
+          height: 100%;
+          display: flex;
+          align-items: flex-end;
+          box-sizing: border-box;
+
+          p {
+            margin: 0px auto 0px auto;
+            font-size: 30px;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .bottom {
+        display: flex;
+
+        .left {
+          width: 40%;
+          margin: 10px 5px 10px 10px;
+          box-sizing: border-box;
+
+          .left-top {
+            height: calc(100vh - 220px);
+            box-sizing: border-box;
+            border: 3px solid #8DA9FF;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+
+            .input-item {
+              padding: 5px 10px 5px 10px;
+              display: flex;
+              width: 100%;
+
+              p {
+                margin: 0px;
+                font-weight: 500;
+                font-size: 15px;
+
+                &:first-child {
+                  width: 50%;
+                  color: #545454;
+                }
+              }
+
+              .input-box {
+                width: 100%;
+                padding: 5px;
+                box-sizing: border-box;
+                // border: 1px solid black;
+                background: #EFF1F5;
+                box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+
+                input {
+                  font-size: 15px;
+                  width: 100%;
+                  box-sizing: border-box;
+                  border: none;
+                  border-radius: 5px;
+                  outline-width: 0;
+                  background-color: rgba(0, 0, 0, 0);
+                }
+              }
+            }
+          }
+
+          .left-bottom {
+            margin-top: 10px;
+
+            .button {
+              padding: 10px 0px 10px 0px;
+              width: 100%;
+              margin: auto;
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .right {
+          height: calc(100vh - 170px);
+          width: 60%;
+          margin: 10px 10px 10px 5px;
+          overflow-y: scroll;
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+
+          &::-webkit-scrollbar {
+            display: none;
+          }
+
+          .patient-item {
+            width: 100%;
+            box-sizing: border-box;
+            border: 3px solid #8DA9FF;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+            justify-content: space-between;
+            padding: 10px 30px 10px 10px;
+
+            .patient-item-left {
+              p {
+                margin: 0px;
+                font-weight: 600;
+                font-size: 15px;
+
+                &:nth-child(2) {
+                  font-weight: 600;
+                  font-size: 20px;
+                  margin-top: 5px;
+                }
+              }
+            }
+
+            .patient-item-right {
+              background: linear-gradient(180deg, rgba(94, 151, 236, 0.83) 50.52%, rgba(94, 151, 236, 0.9) 52.6%);
+              box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+              border-radius: 34px;
+              padding: 5px 15px 5px 15px;
+              font-weight: 600;
+              font-size: 20px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .button {
     background: linear-gradient(180deg, rgba(94, 151, 236, 0.83) 50.52%, rgba(94, 151, 236, 0.9) 52.6%, rgba(94, 151, 236, 0.9) 58.85%);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -976,9 +1132,10 @@
   }
 
   .button.opacity {
-    background: linear-gradient(180deg, rgba(94, 151, 236, 0.334) 50.52%,rgba(94, 151, 236, 0.505) 52.6%, rgba(94, 151, 236, 0.573) 58.85%);
+    background: linear-gradient(180deg, rgba(94, 151, 236, 0.334) 50.52%, rgba(94, 151, 236, 0.505) 52.6%, rgba(94, 151, 236, 0.573) 58.85%);
     border: 2px solid rgba(61, 135, 245, 0.891);
     color: rgb(61, 135, 245);
+
     &:hover {
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.339);
       background: linear-gradient(180deg, rgba(61, 135, 245, 0.891) 50.52%, rgba(68, 138, 242, 0.948) 52.6%, rgba(63, 135, 242, 0.96)58.85%);

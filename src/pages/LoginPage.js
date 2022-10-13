@@ -12,7 +12,6 @@ function LoginPage() {
     const logiN = () => {
         axios.post(baseUrl+'/user/check-user', { email: email, password: password })
             .then(res => {
-                // console.log("check-user", res.data)
                 if (res.data[0]) {
                     dispatch(login(res.data[0]));
                     setEmail("")

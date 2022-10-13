@@ -111,9 +111,7 @@ function NewPatientPage() {
                                     setDataOfFirstTreatment('')
                                 }
                             })
-                            .catch((error) => {
-                                // console.log(error);
-                            });
+                            .catch((error) => { });
                     }
                 }}>CREATE A NEW PATIENT</div>
             </div>

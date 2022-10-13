@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Header from '../components/Header'
 import axios from 'axios';
@@ -9,6 +10,7 @@ function NewStudyPage() {
     const currentClassId = useSelector(state => state.currentItem.classId);
     const className = (currentClassId===0)? 'Clinical Study' : 'Trial Organisation';
     const [newStudyName, setNewStudyName] = useState('')
+    const navigate = useNavigate();
     return (
         <div className='NewStudyPage'>
             <Header />
@@ -24,18 +26,18 @@ function NewStudyPage() {
                 <div className='button' onClick={() => {
                     if (newStudyName) {
                         const studyObject = {
-                            newStudyName: newStudyName,
+                            className: className,
+                            studyTitle: newStudyName
                         };
                         axios.post(baseUrl + '/study/create-study', studyObject)
                             .then(res => {
                                 if (res.data?.success) {
-                                    alert('A New Study Successfully Created..')
-                                    setNewStudyName('')
+                                    // alert('A New Study Successfully Created..')
+                                    // setNewStudyName('')
+                                    navigate(-1)
                                 }
                             })
-                            .catch((error) => {
-                                // console.log(error);
-                            });
+                            .catch((error) => { });
                     }
                 }}>CREATE A NEW {className.toUpperCase()}</div>
             </div>

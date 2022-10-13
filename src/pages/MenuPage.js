@@ -70,7 +70,6 @@ function MenuPage() {
                 };
                 axios.post(baseUrl + '/user/create-user', userObject)
                   .then(res => {
-                    // console.log(res.data)
                     if (res.data?.success) {
                       setFirstName('')
                       setLastName('')
@@ -79,9 +78,7 @@ function MenuPage() {
                       setUserType('stuff')
                     }
                   })
-                  .catch((error) => {
-                    // console.log(error);
-                  });
+                  .catch((error) => { });
               }
             }}>CREATE A NEW USER</div>
           </div>
@@ -102,11 +99,11 @@ function MenuPage() {
               navigate('/trial-organisations')
             }}>ALL TRIAL ORGANIZATIONS</div>
             <div className='button' onClick={() => {
-              // setClassID(2)
-              navigate('/questions')
+              setClassID(2)
+              navigate('/all-patients-list')
             }}>QUESTIONNAIRE</div>
             <div className='button' onClick={() => {
-              // setClassID(3)
+              setClassID(3)
               navigate('/all-patients-list')
             }}>LIST OF ALL PATIENTS</div>
           </div>
@@ -127,11 +124,11 @@ function MenuPage() {
               navigate('/trial-organisations')
             }}>ALL TRIAL ORGANIZATIONS</div>
             <div className='button' onClick={() => {
-              // setClassID(2)
+              setClassID(2)
               navigate('/new-patient')
             }}>CREATE A PATIENT RECORD</div>
             <div className='button' onClick={() => {
-              // setClassID(3)
+              setClassID(3)
               navigate('/all-patients-list')
             }}>LIST OF ALL PATIENTS</div>
           </div>

@@ -19,7 +19,7 @@ export const logout = () => {
 
 export const setClassId = (id) => {
     return {
-        type: 'SET_CONDITION_ID',
+        type: 'SET_CLASS_ID',
         payload: {
             id: id
         }
@@ -38,6 +38,24 @@ export const setStudyId = (id) => {
 export const setPatientId = (id) => {
     return {
         type: 'SET_PATIENT_ID',
+        payload: {
+            id: id
+        }
+    }
+}
+
+export const setStudy_Id = (id) => {
+    return {
+        type: 'SET_STUDY__ID',
+        payload: {
+            id: id
+        }
+    }
+}
+
+export const setPatient_Id = (id) => {
+    return {
+        type: 'SET_PATIENT__ID',
         payload: {
             id: id
         }
